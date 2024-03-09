@@ -1,0 +1,327 @@
+*{
+    margin: 0px;
+    padding: 0;
+    font-family: sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+}
+.navbar{
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    background-color: black;
+    z-index: 1;
+}
+.logo{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding-right: 5rem;
+    font-size: 1.1rem;
+}
+.menu a:hover{
+    color: #f70707;
+}
+/* herosection */
+.hero{
+    display: flex;
+}
+.hero-section{
+    color: white;
+    margin-left: 10rem;
+    margin-top: 15rem;
+}
+.hello{
+    color: #f70707;
+}
+.heading{
+    font-weight: 800;
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+}
+.hero-section span{
+    color: #f70707;
+}
+.text{
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+.welcome{
+    font-size: 1.5rem;
+    font-family: Monaco;
+    margin-bottom: 3rem;
+}
+.btn{
+    text-decoration: none;
+    margin-right: 1rem;
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 40px;
+    font-size: 1.2rem;
+    font-family: 'Franklin Gothic Medium';
+}
+.resume{
+    background-color:#f70707;
+    color: black;
+    text-align: center;
+}
+.resume:hover{
+    background-color: transparent;
+    color: white;
+    border: 1px solid grey;
+}
+.projectbutton{
+    border: 1px solid grey;
+    color: white;
+}
+.projectbutton:hover{
+    background-color: rgb(183, 183, 183);
+    color: black;
+}
+.image{
+    width: 50%;
+    margin: 15rem 10rem 0px 0px;
+}
+.photo{
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    position: relative;
+    top: 20px;
+    left:150px ;
+    border-radius: 50%;
+    background-image: url("blob:https://web.whatsapp.com/60b6f650-baac-4bad-b439-aefbec7989da");
+    background-size: cover;
+}
+/* about */
+.container{
+    margin-top: 10rem;
+    display: flex;
+}
+.info{
+    color: white;
+    margin-left: 10rem;
+    margin-top: 7rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.name{
+    padding-bottom: 20px;
+}
+.edu{
+    padding-bottom: 20px;
+}
+.add{
+    padding-bottom: 40px;
+    border-bottom: 1px solid gray ;
+}
+.info h2{
+    margin-top: 20px;
+}
+.skills1{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.c-lang{
+    margin-top: 40px;
+    margin-left: 20px;
+    height: 100px;
+    width: 100px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png");
+    background-size: cover;
+}
+.cpplang{
+    margin-top: 40px;
+    margin-left: 20px;
+    height: 100px;
+    width: 100px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png");
+    background-size: cover;
+}
+.csslang{
+    margin-top: 40px;
+    margin-left: 20px;
+    height: 100px;
+    width: 100px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png");
+    background-size: cover;
+}
+.htmllang{
+    margin-top: 40px;
+    margin-left: 20px;
+    height: 100px;
+    width: 100px;
+    background-image: url("https://e7.pngegg.com/pngimages/410/100/png-clipart-web-development-html-responsive-web-design-logo-javascript-html-angle-web-design-thumbnail.png");
+    background-size: cover;
+}
+.about-me{
+    width: 50%;
+    margin: 7rem 10rem ;
+    border-left: 1px solid gray;
+    text-align: center;
+}
+.details{
+    height: 400px;
+    width: 500px;
+    position: relative;
+    top : 6rem;
+    left : 5rem;
+    color: white;
+}
+.details h1{
+    color: #f70707;
+    font-size: 2.5rem;
+}
+.details p{
+    margin-top: 10px;
+    text-align: left;
+    word-spacing: 2px;
+}
+/* project */
+.project-made{
+    color: white;
+    text-align: center;
+    margin-top: 1rem;
+}
+.project-made h1 {
+    color: #f70707;
+    margin-top: 10rem;
+    text-align: center;
+    margin-bottom: 5rem;
+    font-size: 2.5rem;
+}
+.project-all{
+    margin-top: 20px;
+    color: white;
+    display: flex;
+    text-align: left;   
+    margin-bottom: 50px;
+}
+.proj1{
+    color: white;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    top: 3rem;
+    left: 0px;
+}
+.proj1 p{
+    margin-top: 20px;
+    height: 125px;
+    width: 400px;
+}
+.project-made a{
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    text-align: center;
+}
+.project-made a:hover{
+    color: #f70707;
+}
+.pizza-img{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 0px;
+    background-image: url("https://www.restapp.com/wp-content/uploads/2021/12/Pizza_Ordering.png");
+    background-size: cover;
+}
+/* project2 */
+.proj2{
+    color: white;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+    top: 3rem;
+    left: 10rem;
+}
+.proj2 p{
+    margin-top: 20px;
+    height: 125px;
+    width: 400px;
+}
+.game-img{
+    height: 200px;
+    width: 200px;
+    background-image: url("https://media.istockphoto.com/id/937025192/vector/tic-tac-toe-game.jpg?s=612x612&w=0&k=20&c=7C-W1LGJIKMDEooBCZHkGTMoLYT1Wp3fsBwibBN81jM=");
+    background-size: cover;
+    position: relative;
+    left: 10rem;
+}
+/* contact */
+.head-contact{
+    border-top: 1px solid grey;
+    margin-top: 10rem;
+    text-align: center;
+    color: #f70707;
+}
+.head-contact h1{
+    margin-top: 20px;
+}
+.contact{
+    margin-top: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.insta{
+    height: 40px;
+    width: 40px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg");
+    background-size: cover;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.linkedin{
+    height: 40px;
+    width: 40px;
+    background-image: url("https://brand.linkedin.com/apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/default-share.png");
+    background-size: cover;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.mail{
+    height: 40px;
+    width: 40px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1R3stofYdJqW0ZHoiODJntlL-K4VewiS_bw&usqp=CAU");
+    background-size: cover;
+    border-radius: 50%;
+}
+/* footer */
+.footer{
+    height: 40px;
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 2px;
+    background-color: rgb(13, 10, 10);
+    font-size: 0.85rem;
+}
